@@ -7,13 +7,13 @@ import firebase from 'firebase';
 require("firebase/firestore");
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBx7he4Ww6H_zQpwh7zT0GplJcva9q4naI",
-    authDomain: "screenfleet-2c77f.firebaseapp.com",
-    databaseURL: "https://screenfleet-2c77f.firebaseio.com",
-    projectId: "screenfleet-2c77f",
-    storageBucket: "screenfleet-2c77f.appspot.com",
-    messagingSenderId: "154709207643",
-    appId: "1:154709207643:web:85cae06eadf6991e"
+    apiKey: "YOUR_APIKEY",
+    authDomain: "YOUR_AUTHDOMAIN",
+    databaseURL: "YOUR_DATABASEURL",
+    projectId: "YOUR_PROJECTID",
+    storageBucket: "YOUR_STORAGEBUCKET",
+    messagingSenderId: "YOUR_MESSAGINGSENDERID",
+    appId: "YOUR_APPID"
   };
 firebase.initializeApp(firebaseConfig);
 
